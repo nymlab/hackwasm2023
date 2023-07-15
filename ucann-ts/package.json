@@ -1,0 +1,26 @@
+{
+  "name": "ucann-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create": "ts-node scripts/create",
+    "genkey": "ts-node scripts/genkey",
+    "test": "ts-node scripts/test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@ucans/ucans": "^0.11.4",
+    "cbor": "^9.0.0",
+    "cose-to-jwk": "^1.1.0",
+    "parse-cosekey": "^1.0.2",
+    "ts-node": "^10.9.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
